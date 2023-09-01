@@ -36,15 +36,16 @@
             <div class="buscar">
                 BUSCAR
             <br>
-            <input type="search" name="buscar" placeholder="item o categoria" >
+            <input type="search" name="buscar" placeholder="Ítem o Categoría" >
             </div>
             <br>
             <div class="order">
                 ORDENAR POR
             <br>
             <select name="ordenar" >
-                <option value="v1">Mayor a menor</option>
-                <option value="v2">Menor a mayor</option>
+                <option value="v1">Mayor a Menor</option>
+                <option value="v2">Menor a Mayor</option>
+                <option value="v3">Predeterminado</option>
             </select>
             </div>
             <br>
@@ -58,23 +59,36 @@
             <input type="number" name="precio" placeholder="0">
             </div>
             </div>
-            
-            
             <br>
-            <div class="fitro">
+            <div class="filtro">
                 FILTRAR
-            <br>
-            <input type="checkbox" name="filtrar" >
-            NUEVO
-            <br>
-            <input type="checkbox" name="filtrar" >
-            OFERTAS
-            <br>
-            <input type="checkbox" name="filtrar" >
-            EDICIÓN ESPECIAL
-            <br>
-            <input type="checkbox" name="filtrar" >
-            FAVORITOS
+                <div class="checkbox">
+                    <div class="tipos">
+                        <input type="checkbox" name="filtrar" >
+                        NUEVO
+                    </div>
+                </div>
+
+                <div class="checkbox">
+                    <div class="tipos">
+                        <input type="checkbox" name="filtrar" >
+                        OFERTAS
+                    </div>
+                </div>
+
+                <div class="checkbox">
+                    <div class="tipos">
+                        <input type="checkbox" name="filtrar" >
+                            EDICIÓN ESPECIAL
+                    </div>   
+                </div>
+
+                <div class="checkbox">
+                    <div class="tipos">
+                        <input type="checkbox" name="filtrar" >
+                        FAVORITOS
+                    </div>
+                </div>
             </div>
             
         </form>
