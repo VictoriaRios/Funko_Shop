@@ -24,7 +24,7 @@ nav{
     justify-content: space-between;
 }
 .na img{
-    margin-left: 150px;
+    margin-left: 50px;
 }
 ul{
     list-style: none;
@@ -42,9 +42,6 @@ li a{
     color:white;
     font-family: 'Raleway', sans-serif;
     margin-left: 50px;
-}
-.carrito{
-    margin-left: -150px;
 }
 
 /*FIN HEADER UNIVERSAL*/
@@ -352,6 +349,7 @@ footer{
 /*FIN PRODUCTOS SHOP*/
 /*INICIO LOGIN*/
 .login{
+    height: 50.5vh;
     display: flex;
     align-items: center;
     justify-content:center ;
