@@ -361,10 +361,15 @@ footer{
     font-family: 'Raleway', sans-serif;
     margin-bottom: 2%;
 }
+.login h3{
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 2%;
+}
 .login h5{
     color: #1D84B5;
     font-family: 'Raleway', sans-serif;
-    margin-top: 20%;
+    padding-right:20px ;
+    text-align: center;
 }
 .email{
     font-family: 'Inter', sans-serif;
@@ -398,6 +403,7 @@ footer{
     align-items: center;
     justify-content: center;
     font-family: 'Inter', sans-serif;
+    margin-top: 5%;
 }
 .submit{
     border: 0;
@@ -405,6 +411,7 @@ footer{
     background-color: #FF3333;
     color: white;
     font-family: 'Inter', sans-serif;
+    margin-right: 15%;
 }
 .check{
     border-style:solid;
